@@ -1,0 +1,132 @@
+body {
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #BC1727;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  border: none;
+  justify-content: space-between;
+}
+
+.left-section {
+  justify-content: center;
+  margin-left: 120px;
+}  
+
+.logo {
+  height: 120px;
+  width: 120px;
+  margin-top: -20px;
+  object-fit: cover;
+}
+
+.right-section {
+  justify-content: space-between;
+  padding-top: 16px;
+  margin-right: 120px;
+}
+
+.reserve-btn {
+  font-size: 14px;
+  font-weight: bold;
+  color:  #8d101d;
+  padding: 12px 12px 12px 12px;
+  background-color:#eccd51;
+  border: none;
+  border-radius: 4px;
+
+  transition: box-shadow 0.15s;
+}
+
+.reserve-btn:hover {
+  box-shadow: 5px 5px 20px rgb(67, 67, 67);
+}
+
+.reserve-btn:active {
+  opacity: 0.9;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color:#fff5cf;
+  text-decoration: none;
+}
+
+.hero {
+  background:  #9e1421;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff5cf;
+  text-align: center;
+}
+
+.hero-content {
+  margin: 0px;
+}
+
+
+.hero .btn {
+  font-size: 14px;
+  font-weight: bold;
+  color:  #8d101d;
+  padding: 1em 2em;
+  background-color:#eccd51;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+
+  transition: box-shadow 0.15s;
+}
+
+.about, .menu, .contact {
+  padding: 2em;
+  text-align: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact form label {
+  margin-top: 1em;
+}
+
+.contact form input, .contact form textarea, .contact form button {
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
