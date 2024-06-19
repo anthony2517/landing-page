@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 3000px;
 }
 
 header {
@@ -10,9 +11,13 @@ header {
   color: white;
   display: flex;
   flex-direction: row;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 70px;
   border: none;
   justify-content: space-between;
+  position: fixed;
 }
 
 .left-section {
@@ -71,7 +76,9 @@ nav ul li a {
 }
 
 .hero {
-  background:  #9e1421;
+  background: #9e1421;
+  position: static;
+  margin-top: 70px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -80,13 +87,24 @@ nav ul li a {
   text-align: center;
 }
 
+.hero-image {
+  background-image: url("Hero-image.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+}
+
 .hero-content {
-  margin: 0px;
+  margin-top: 550px;
+  line-height: 20px;
 }
 
 
 .hero .btn {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: bold;
   color:  #8d101d;
   padding: 1em 2em;
